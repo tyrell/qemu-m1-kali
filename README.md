@@ -15,7 +15,7 @@ Let's install QEMU using Homebrew.
   1. Go to https://www.kali.org/get-kali/#kali-bare-metal
   2. Pick the installer that matches your need from the 64-bit section.
 
-Why x86 64-bit? Because I was not able to get the Applie M1 installer running using qemu-system-aarch64. That's why! :)
+Why x86 64-bit and not the Apple M1 installer?! Because I was not able to get the Kali Linux Applie M1 installer running using QEMU. That's why! :)
 
 ## Create a directory for your installation and initialise a QEMU virtual vard disk
 
@@ -42,5 +42,13 @@ Congratualtions! You are running Kali Linux on your Apple M1 Mac.
 This is the command I'm tweaking at the moment to improve the performance of this installation. I'm happy with the memory utilisation. The CPU performance must be improved for this to be useful as a production machine. 
  
  
+ # Final thoughts
+After fiddling with QEMU launch command parameters for a while I was still not happy with the performance of the Kali Linux installation. 
+
+Kali Linux wasn't the only guest OS I was having trouble with. I also have a fiddly Windows 11 installation on QEMU that I've been using on and off for a few months. That windows instance seems to have decided to become corrupted on its own while I wasn't looking. 
+
+If this was a long time ago, I would have spent hours and hours figuring out QEMU and getting my guest OSs working. However, today I optimise my time differently. So, I bought a Parallels Desktop Pro license, which comes with Windows 11 and Kali Linux fully supported out of the box. 
+
+
  
  
