@@ -30,10 +30,10 @@ Why x86 64-bit? Because I was not able to get the Applie M1 installer running us
   
 This will launch a QEMU window to kickoff your Kali Linux installation. Step through the installation wizard. Depending on the installation contents you can expect this to take hours to complete. 
 
-Once the installaiton ocmpletes the system will reboot. Since you still have the installation image mounted, you will come back to the start of the installation wizard after rebooting. Please quit QEMU at this point. 
+Once the installation completes the system will reboot. Since you still have the installation cd-rom image mounted, you will come back to the start of the installation wizard after rebooting. Please quit QEMU at this point. 
 
  
- # Launnch your Kali Linux installation 
+ # Launch your Kali Linux installation 
  
  `qemu-system-x86_64 -hda kali.qcow2 -boot d -m 2G -usb -machine pc &`
  
