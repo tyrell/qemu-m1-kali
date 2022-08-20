@@ -35,7 +35,7 @@ Once the installation completes the system will reboot. Since you still have the
  
  # Launch your Kali Linux installation 
  
- `qemu-system-x86_64 -hda kali.qcow2 -boot d -m 2G -usb -machine pc &`
+ `qemu-system-x86_64 -hda kali.qcow2 -boot d -m 2G -usb -machine q35 -cpu max -smp cores=8,threads=1,sockets=1  &`
  
 Congratualtions! You are running Kali Linux on your Apple M1 Mac. 
  
