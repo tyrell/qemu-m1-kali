@@ -47,7 +47,11 @@ After fiddling with QEMU launch command parameters for a while I was still not h
 
 Kali Linux wasn't the only guest OS I was having trouble with. I also have a fiddly Windows 11 installation on QEMU that I've been using on and off for a few months. That windows instance seems to have decided to become corrupted on its own while I wasn't looking. 
 
-If this was a long time ago, I would have spent hours and hours figuring out QEMU and getting my guest OSs working. However, today I optimise my time differently. So, I bought a Parallels Desktop Pro license, which comes with Windows 11 and Kali Linux fully supported out of the box. 
+If this was a long time ago, I would have spent hours and hours figuring out QEMU and getting my guest OSs working. However, today I optimise my time differently. 
+
+So, I installed a Parallels Desktop Pro trial on my M1 Macbook Air, which came with Windows 11 and Kali Linux fully supported out of the box. Both Kali and Windows perform like native applications with Parallels. Needless to say, I went from trial to paid subscriber in under an hour. Yes, that's how fast the installation and verification process was for both guest operating systems. 
+
+PS: This isn't a paid advertisement for Parallels, and I still encourage you to give QEMU a try folowing the steps above. Please submit a pull request, if you manage to tweak QEMU to get better performance out of a Guest OS. 
 
 
  
